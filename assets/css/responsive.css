@@ -1,0 +1,174 @@
+@media (max-width: 992px) {
+    #nav {
+        padding: 15px 0px !important;
+    }
+
+    .offcanvas {
+        width: 80%;
+        max-width: 330px;
+    }
+
+    #hero {
+        text-align: center;
+    }
+
+    #hero h4 {
+        font-size: 40px;
+    }
+
+    #hero .link_btn a:last-child {
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+
+    #hero .hero_content {
+        margin-top: 20px;
+    }
+
+    #hero .mouse {
+        display: none;
+    }
+
+    #mobile_footer {
+        z-index: 100;
+    }
+
+    #mobile_footer .row {
+        margin-top: 20px;
+        text-align: center;
+        padding: 10px 0 0 0;
+        background: #fff;
+        /* border-radius: 54px; */
+        /* background: #e0e0e0; */
+        box-shadow: 5px 5px 10px #c7c7c7,
+            -5px -5px 10px #f9f9f9;
+    }
+
+    #about {
+        margin: 50px 0px;
+        z-index: 2;
+    }
+
+    #about .shape {
+        display: none;
+    }
+
+    #about h4 {
+        font-family: var(--second-family);
+        font-weight: 700;
+        font-size: 50px;
+        color: #353535;
+        padding-top: 30px;
+
+    }
+
+    #about p {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 190%;
+        color: #353535;
+        margin-bottom: 45px;
+        padding-top: 20px;
+
+    }
+
+    #design .container {
+        padding: 0px 30px;
+    }
+
+    #design .main_content .heading {
+        text-align: left;
+        font-size: 40px;
+    }
+
+    #design .main_content p {
+        text-align: left;
+
+    }
+
+    #design .secondary_row {
+        /* background: red; */
+        text-align: right;
+        justify-content: end;
+    }
+
+    /* #design .secondary_row {
+
+        text-align: right;
+        justify-content: end;
+    } */
+
+    /* cards */
+    #cards .row {
+        margin: 0;
+    }
+
+    #cards .card_div {
+        width: 100%;
+        margin: 15px 0;
+    }
+
+    /* cards */
+
+    /* branding */
+
+
+
+
+    /* branding */
+
+
+
+    /* experience */
+
+
+    /* experience */
+    #experience .row .title::before {
+        left: -20px;
+        top: -40px;
+    }
+
+    #experience .row .title::after {
+        left: -8px;
+        top: -28px;
+    }
+
+
+    #experience .right_border {
+        display: none;
+    }
+
+    
+    #experience .details {
+        padding-bottom: 50px;
+        
+    }
+    
+    #experience .row {
+        padding-left: 30px;
+        padding-bottom: 30px;
+        position: relative;
+
+    }
+
+    #experience .row::before {
+        content: "";
+        position: absolute;
+        width: 2px;
+        height: 100%;
+
+        left: 28px;
+        top: -30px;
+        border: 1px dashed #7a7a7a;
+
+
+
+
+    }
+
+    
+    /* experience */
+
+
+}

@@ -1,0 +1,522 @@
+:root {
+    --font-family: "Poppins", sans-serif;
+    --second-family: "PT Sans", sans-serif;
+    --third-family: "Potta One", sans-serif;
+    --font3: "Baloo Da 2", sans-serif;
+}
+
+body {
+    font-family: var(--font-family);
+}
+
+/* ================ NAVIGATION START ================ */
+#nav {
+    padding: 0px !important;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+#nav ul li a {
+    text-transform: uppercase;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 200%;
+    color: #353535;
+    padding: 18px 20px;
+
+    position: relative;
+
+}
+
+#nav ul li a::after {
+    content: "";
+    position: absolute;
+
+    width: 0%;
+    height: 2px;
+    background: #353535;
+
+    left: 0px;
+    bottom: 0px;
+}
+
+#nav ul li a:hover::after {
+    width: 100%;
+    transition: 0.5s;
+
+}
+
+#nav .menu_bar {
+    /* background: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #353535;
+}
+
+/* ================ NAVIGATION END ================ */
+
+/* ================ HERO START ================ */
+#hero span {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 24px;
+    color: #353535;
+}
+
+#hero h4 {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 64px;
+    color: #353535;
+}
+
+#hero p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 190%;
+    color: #353535;
+}
+
+#hero .row {
+    /* display: flex; */
+    align-items: center;
+
+}
+
+#hero .link_btn a {
+    display: inline-flex;
+    align-items: center;
+    background: #FFCC00;
+    line-height: 0;
+    padding: 16px 45px;
+    border-radius: 20px;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+#hero .link_btn a span {
+    color: #fff;
+    margin-left: 11px;
+}
+
+#hero .link_btn a:hover {
+    background: transparent;
+    color: #353535;
+    outline: 1px solid #353535;
+}
+
+#hero .link_btn a:hover span {
+    color: #353535;
+}
+
+#hero .link_btn a:last-child {
+    background: transparent;
+    color: #353535;
+    outline: 1px solid #353535;
+    padding: 15px 45px;
+    margin-left: 40px;
+}
+
+#hero .link_btn a:last-child span {
+    color: #353535;
+}
+
+#hero .icons {
+    display: flex;
+    align-items: center;
+    /* background: red; */
+    margin-top: 30px;
+}
+
+#hero ul {
+    list-style-type: none;
+    margin-bottom: 0px;
+    display: flex;
+}
+
+#hero ul li a {
+    display: flex;
+    align-items: center;
+    /* background: yellow; */
+    /* line-height: 0; */
+    color: #000000;
+    padding: 10px;
+    background: #F1F0F1;
+    border-radius: 50%;
+    margin-left: 15px;
+}
+
+#hero .mouse {
+    position: absolute;
+    left: 50%;
+    /* bottom: 50px; */
+    transform: translateX(-50%);
+}
+
+/* ================ HERO END ================ */
+
+/* ================ MOBILE FOOTER START ================ */
+#mobile_footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+#mobile_footer .row {
+    margin-top: 20px;
+    text-align: center;
+    padding: 10px 0 0 0;
+    background: #fff;
+    /* border-radius: 54px; */
+    /* background: #e0e0e0; */
+    box-shadow: 5px 5px 10px #c7c7c7,
+        -5px -5px 10px #f9f9f9;
+
+}
+
+/* ================ MOBILE FOOTER END ================ */
+
+/* ================ ABOUT START ================ */
+#about {
+    background: linear-gradient(130deg, #fc0 0%, #fbf7ac 84.62%, #faffcb 100%, #faffcb 100%);
+    position: relative;
+    margin-top: 120px;
+}
+
+#about h4 {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 50px;
+    color: #353535;
+
+
+}
+
+#about p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 190%;
+    color: #353535;
+    margin-bottom: 45px;
+
+}
+
+#about a {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 180%;
+    color: #353535;
+    text-decoration: none;
+    padding: 17px 44px;
+    outline: 1px solid #000000;
+    border-radius: 20px;
+    width: 171px;
+    height: 66px;
+    /* margin-top: 45px; */
+}
+
+#about .shape {
+    position: absolute;
+    right: 50px;
+    bottom: 0px;
+}
+
+/* ================ ABOUT END ================ */
+
+/* ================ CARDS START ================ */
+/* A try */
+#cards .row {
+    margin-top: 149px;
+}
+
+#cards .card_div {
+    text-align: center;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.08);
+    background: #fff;
+    border-radius: 20px;
+    width: calc(33.33% - 30px);
+    margin: 0 15px;
+
+}
+
+#cards .card_div h4 {
+    padding: 18px 0 14px 0;
+}
+
+/* ================ CARDS END ================ */
+
+
+
+/* ================ BRANDING START ================ */
+/* A try */
+#branding .brand_content {
+    background: linear-gradient(130deg, #fc0 0%, #fbf7ac 84.62%, #faffcb 100%, #faffcb 100%);
+    border: 1px solid #fed62a;
+    margin-top: 106px;
+    border-radius: 30px;
+
+}
+
+#branding .row {
+    align-items: center;
+}
+
+#branding h4 {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 50px;
+    color: #353535;
+}
+
+#branding p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 190%;
+    color: #353535;
+    padding: 21px 0 35px 0;
+}
+
+#branding a {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 180%;
+    color: #353535;
+    border: 1px solid #000;
+    border-radius: 20px;
+    padding: 17px 44px;
+    text-decoration: none;
+    transition: 0.5s ease-in-out;
+
+}
+
+#branding .text {
+    padding-left: 70px;
+    align-items: center;
+    padding-top: 83px;
+    padding-bottom: 50px;
+}
+
+#branding .text img {
+    transform: translateY(-30px);
+    margin-left: 15px;
+}
+
+/* ================ BRANDING END ================ */
+
+
+
+/* ================ DESIGN START ================ */
+#design {
+    margin: 100px 0;
+}
+
+#design .icon span {
+    background: #55852F;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 13px;
+    border-radius: 50%;
+    color: #fff;
+    /* margin-right: 10px; */
+}
+
+#design .contains {
+    margin-left: 10px;
+}
+
+#design .contains h4 {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 180%;
+    color: #353535;
+    margin-bottom: 0px;
+
+}
+
+#design .contains p {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 180%;
+    color: #353535;
+    margin: 0px;
+}
+
+#design .parent {
+    /* box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.08); */
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.1);
+    background: #fff;
+    padding: 17px 29px;
+    border-radius: 20px;
+    margin-bottom: 24px;
+
+}
+
+#design .icons_parent {
+    /* box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.08);
+    background: #fff;
+    padding: 17px;
+    margin-bottom: 24px;
+    border-radius: 20px; */
+}
+
+#design .main_content .heading {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 50px;
+    text-align: right;
+    color: #353535;
+
+}
+
+#design .main_content p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 190%;
+    text-align: right;
+    color: #353535;
+}
+
+#design .secondary_row {
+    /* background: red; */
+    text-align: right;
+    justify-content: end;
+}
+
+#design .secondary_row h4 {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 40px;
+    text-align: right;
+    color: #353535;
+
+}
+
+#design .secondary_row span {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 180%;
+    color: #353535;
+
+
+}
+
+/* ================ DESIGN END ================ */
+
+
+/* ================ EXPERIENCE START ================ */
+#experience {}
+
+#experience .heading h2 {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+    color: #353535;
+    margin-bottom: 97px;
+
+}
+
+#experience h4 {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 180%;
+    color: #353535;
+
+
+}
+
+#experience p {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 180%;
+    color: #7a7a7a;
+
+}
+
+#experience .row .title {
+    /* background: red; */
+    position: relative;
+
+}
+
+#experience .right_border {
+    border-right: 2px dashed #7a7a7a;
+    width: 2px;
+    height: 100%;
+    position: absolute;
+    right: 20px;
+    top: 0px;
+
+
+    /* content: "";
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    border: 2px dashed #7a7a7a;
+    background: #7a7a7a;
+    right: 0px;
+    top: 0px;
+    border-radius: 50%; */
+
+}
+
+#experience .row .title::before {
+    content: "";
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    border: 2px dashed #7a7a7a;
+    background-color: #fff;
+    right: 0px;
+    top: 0px;
+    border-radius: 50%;
+    z-index: 2;
+
+}
+
+#experience .row .title::after {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: #52ab70;
+    /* background: #7a7a7a; */
+    right: 10px;
+    top: 10px;
+    border-radius: 50%;
+    z-index: 3;
+
+}
+#experience .wraper .row:nth-child(3n + 1) .title::after {
+    background: #52ab70;
+}
+#experience .wraper .row:nth-child(3n + 2) .title::after {
+    background: #f17676;
+}
+#experience .wraper .row:nth-child(3n + 3) .title::after {
+    background: #ffd233;
+}
+
+
+
+
+
+
+/* ================ EXPERIENCE END ================ */
